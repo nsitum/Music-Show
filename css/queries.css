@@ -1,0 +1,495 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .footer-container {
+    padding: 130px 30px;
+  }
+
+  .footer-btn {
+    padding: 10px 30px;
+  }
+
+  .section-testimonials {
+    padding: 151px 200px;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  .nav {
+    padding-right: 40px !important;
+  }
+
+  .nav-el:link,
+  .nav-el:active {
+    font-size: 14px;
+  }
+
+  .hero-text-2 {
+    margin-left: 200px;
+  }
+
+  .about-2-container {
+    padding: 151px 60px;
+  }
+
+  .slider-left {
+    left: 42px;
+  }
+  .slider-right {
+    right: 42px;
+  }
+
+  .about-container {
+    padding: 0 40px;
+  }
+
+  .about-text-1 {
+    font-size: 16px;
+  }
+
+  .about-text-2 {
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .learn-more-btn {
+    padding: 10px 40px;
+  }
+
+  .section-slider {
+    padding-top: 140px;
+  }
+
+  .about-2-container {
+    margin: 0 auto !important;
+    padding: 100px 40px !important;
+  }
+
+  .footer-btn {
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-2-container .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reseravtion-heading {
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  .about-2-container .row {
+    gap: 40px;
+  }
+
+  .about-2-1 {
+    width: 100%;
+  }
+
+  .about-2-2 {
+    width: 70%;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 59em) {
+  .hero-container {
+    padding-right: 50px;
+  }
+
+  .hero-main-img {
+    margin: 0;
+    width: 400px;
+  }
+
+  .nav {
+    padding-top: 90px !important;
+  }
+
+  .party-container .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .party-about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    padding: 0 40px;
+  }
+
+  .about-text-1 {
+    font-size: 16px;
+  }
+
+  .about-text-2 {
+    font-size: 16px;
+  }
+
+  .reservation-text {
+    font-size: 16px;
+  }
+
+  .reservation-3 {
+    display: none;
+  }
+
+  .reservation-row-2 {
+    display: block;
+  }
+
+  .reservation-4 {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .reservation-container {
+    padding: 120px 80px;
+  }
+
+  .reseravtion-heading {
+    font-size: 92px;
+  }
+
+  .section-slider {
+    padding-top: 0;
+  }
+
+  .section-slider .container-fluid {
+    flex-direction: column;
+  }
+
+  .slider-main {
+    width: 100%;
+  }
+
+  .slider-side {
+    width: 100%;
+  }
+
+  .slider-left {
+    left: 120px;
+  }
+  .slider-right {
+    right: 120px;
+  }
+
+  .section-party-2 .row {
+    flex-direction: column;
+  }
+
+  .party-2-left {
+    width: 100%;
+    height: 300px;
+  }
+
+  .party-2-right {
+    width: 100%;
+    padding: 140px 0;
+  }
+
+  .section-newsletter .row {
+    flex-direction: column;
+  }
+
+  .newsletter-main {
+    width: 100%;
+    padding: 140px 0;
+  }
+
+  .newsletter-side {
+    width: 100%;
+    height: 500px;
+  }
+
+  .footer-btn {
+    padding: 10px;
+  }
+
+  .party-container {
+    padding: 0 140px;
+  }
+
+  .party-container .col-md-6 {
+    width: 100%;
+  }
+
+  .party-header {
+    text-align: center;
+  }
+
+  .reservation-images {
+    display: none;
+  }
+
+  .party-stroke {
+    display: none;
+  }
+
+  .slider {
+    right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    top: 65px;
+    left: 65px;
+  }
+
+  .section-hero .row {
+    gap: 50px;
+  }
+
+  .reseravtion-heading {
+    width: 100%;
+  }
+
+  .hero-side {
+    height: 400px;
+  }
+
+  .reservation-images-container {
+    flex-direction: column;
+  }
+
+  .section-testimonials {
+    padding: 150px 80px;
+  }
+
+  .reservation-text {
+    text-align: center;
+  }
+
+  .reservation-container .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .party-2-text {
+    text-align: center;
+  }
+
+  .party-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-control-prev {
+    left: -40px;
+  }
+  .carousel-control-next {
+    right: -20px;
+  }
+
+  .party-container {
+    padding: 0 40px;
+  }
+
+  .footer-container {
+    text-align: center;
+    padding: 70px 30px;
+  }
+
+  .footer-container .row {
+    gap: 30px;
+  }
+
+  .slider-side {
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-container {
+    padding: 0;
+  }
+
+  .hero-main-img {
+    display: inline-block;
+    width: 350px;
+    padding: 50px 0;
+    margin-left: 50px;
+  }
+
+  .section-about {
+    padding-top: 120px;
+    padding-bottom: 0;
+  }
+
+  .hero-text-2 {
+    margin: 0;
+  }
+
+  .hero-about {
+    margin: 40px 0 0 0;
+  }
+
+  .about-container {
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+
+  .party-header {
+    font-size: 92px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-left {
+    margin: 0;
+  }
+
+  .about-right {
+    margin: 0;
+  }
+
+  .hero-about-text-1 {
+    transform: rotate(-4.6deg);
+  }
+
+  .reseravtion-heading {
+    padding: 0;
+  }
+
+  .reservation-container {
+    padding: 100px 0;
+  }
+
+  .slider {
+    top: -40px;
+  }
+
+  .reseravtion-heading .reservation-stroke {
+    width: 300px;
+    right: 40px;
+  }
+
+  .slider-main {
+    padding: 0 40px;
+  }
+
+  .about-2-2 {
+    width: 100%;
+  }
+
+  .about-2-text-2 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .reseravtion-heading {
+    font-size: 80px;
+  }
+
+  .section-testimonials {
+    padding: 180px 40px;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+    bottom: -400px;
+  }
+  .carousel-control-next {
+    right: 20px;
+    bottom: -400px;
+  }
+
+  .party-2-arrow-3 {
+    display: none;
+  }
+
+  .newsletter-container {
+    width: 100%;
+  }
+
+  .newsletter-container .party-header {
+    font-size: 80px;
+  }
+
+  .newsletter-main {
+    padding: 140px 40px;
+  }
+
+  .party-inner {
+    width: 100%;
+  }
+
+  .slider-left {
+    left: 20px;
+  }
+  .slider-right {
+    right: 20px;
+  }
+
+  .party-2-right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .newsletter-form input {
+    padding: 15px 40px;
+  }
+
+  .newsletter-form textarea {
+    padding: 15px 40px;
+  }
+}
+
+@media (max-width: 410px) {
+  .newsletter-container .party-header {
+    font-size: 68px;
+  }
+
+  .reseravtion-heading {
+    font-size: 68px;
+  }
+
+  .party-header {
+    font-size: 68px;
+  }
+
+  .hero-main-img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 346px) {
+  .hero-main-img {
+    width: 250px;
+  }
+
+  .newsletter-container .party-header {
+    font-size: 56px;
+  }
+
+  .reseravtion-heading {
+    font-size: 56px;
+  }
+
+  .party-header {
+    font-size: 56px;
+  }
+}
